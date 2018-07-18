@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RAZZIL</title>
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+        body .btn-outline-secondary-1 {
+            color: #343a40;
+            border-color: #343a40;
+            background-color: transparent;
+        }
+
+        body .btn-outline-secondary-1:hover {
+            color: white;
+            border-color: #343a40;
+            background-color: #343a40;
+
+        }
+        body .btn-outline-secondary-1:focus {
+            color: white;
+            border-color: #343a40;
+            background-color: #343a40;
+            outline: 0;
+            box-shadow: 0 0 0 .2rem rgba(100, 100, 100, 0.25)
+        }
+        body .my-sm-0-1{
+            color: #343a40;
+            border-color: #343a40;
+        }
+
+        h1{
+            outline-color: black;
+            text-shadow: #343a40 0 0 15px;
+        }
+        body {
+            background: #f7f7f7 !important;
+        }
+        body .btn-outline-secondary {
+            border-color: lightgrey;
+            color: lightgrey
+        }
+        body .btn-outline-secondary:hover {
+            border-color: lightgrey;
+            color: lightgrey
+        }
+        body .mr-sm-2 {
+            border-color: lightgrey;
+            background-color: #343a40;
+            placeholder-color: white;
+            lighting-color: lightgrey;
+        }
+        body .mr-sm-2::placeholder{
+            color: lightgrey;
+
+        }
+        body .mr-sm-2:focus::placeholder{
+            color: #343a40;
+            lighting-color: lightgrey;
+
+        }
+        body .mr-sm-2-2{
+            background-color: transparent;
+            border-color: #343a40;
+            lighting-color: lightgrey;
+        }
+        body .mr-sm-2-2:focus{
+            background-color: #e0e0e0;
+            border-color: #343a40;
+            lighting-color: lightgrey;
+            outline: 0;
+            box-shadow: 0 0 0 .2rem rgba(155, 155, 155, 0.25)
+        }
+        body .mr-sm-2:focus {
+            color: #495057;
+            background-color: #fff;
+            border-color: lightgrey;
+            outline: 0;
+            box-shadow: 0 0 0 .2rem rgba(211, 211, 211, .25)
+        }
+        body .shadow-lg{
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, .3) !important
+        }
+        body .carousel-caption {
+            position: absolute;
+            right: 15%;
+            bottom: 120px;
+            left: 15%;
+            z-index: 10;
+            padding-top: 20px;
+            padding-bottom: 200px;
+            color: #fff;
+            text-align: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark shadow-lg fixed-top" >
+    <a class="navbar-brand" href="html/home.html"><img src="/html/logo.png" style="height: 50px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" >
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit" style="color: lightgrey;">Search</button>
+        </ul>
+
+
+        <a href="html/home.html"> <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"
+        >Log out</button> </a>
+
+
+    </div>
+</nav>
+<div class="container">
+    <div class="row" style="margin-top: 150px;">
+        <div class="col-md-2"></div>
+        <div class="col-md-2 ">
+            <img class="shadow" src="/html/user.png" height="250" style="outline-color: #343a40;">
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+            <h3>
+                <%=fio%>
+            </h3>
+            <h5>
+                Username: <%=user%>
+            </h5>
+
+            <form method="post" action="/delete">
+                <input class="btn btn-outline-secondary-1 form-control mr-sm-2-2-2" type="submit" name="delete" value="Delete account" style="margin-top: 10px">
+            </form>
+            <form method="post" action="/chat" >
+                <input class="form-control mr-sm-2-2" type="text" placeholder="Enter a username" aria-label="First name" id="username" style="margin-top: 30px" name="user">
+
+                <input class="btn btn-outline-secondary-1 form-control mr-sm-2-2-2" type="submit" name="delete" value="Start a chat" style="margin-top: 10px">
+            </form>
+
+
+        </div>
+    </div>
+</div>
+<footer class="footer bg-dark" style="margin-top: 430px">
+    <div class="container" style="padding-bottom: 80px">
+        <p class="text" style="color: lightgrey;">RAZZIL.COM &copy; Razil Minneakhmetov 2018</p>
+        <p class="text" style="color: lightgrey">Help by <a href="http://10.17.0.55:443/html/home_page.html">Maxxxim</a> and <a href="http://10.17.1.234:80/html/home.html">Timur</a></p>
+    </div>
+</footer>
+</body>
+</html>
