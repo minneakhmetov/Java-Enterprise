@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyPage</title>
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        h1 {
+            font-family: 'Montserrat', sans-serif !important;
+        }
+        h4{
+            font-family: 'Montserrat', sans-serif !important;
+        }
+        .fig {
+            text-align: center; /* Выравнивание по центру */
+        }
+    </style>
+</head>
+<body>
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Sign in</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" style="background-color: darkslategrey; color: white"
+                              id="customUsernameText"><span class="fa fa-user-o"></span></span>
+                    </div>
+                    <input type="text"
+                           class="form-control" id="customUsername" placeholder="Username" aria-label="Username"
+                           aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" style="background-color: darkslategrey; color: white"
+                              id="customTitleLabel"><span class="fa fa-key"></span></span>
+                    </div>
+                    <input class="form-control" id="customTitle" placeholder="Password" aria-label="Username"
+                           aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="sendCustomPaper(
+                    
+                )" class="btn btn-primary" style="background-color: darkslategrey; color: white" data-dismiss="modal">
+                    Log in
+                </button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <nav class="navbar navbar-default fixed-top" style="background-color: lightgrey">
+            <div class="navbar-header">
+                <a class="navbar-brand" rel="home" href="#" title="Buy Sell Rent Everyting">
+                    <img style="max-width:150px; margin-top: -1px;"
+                         src="logo.png">
+                </a>
+                    <button type="button" class="btn btn-default"
+                            style=" border-color: darkslategrey; background-color: lightgrey; color: darkslategrey;
+                                margin-left: 1250px"
+                            data-toggle="modal"
+                            data-target="#myModal">
+                        Sign in
+                    </button>
+
+    </div>
+
+    </nav>
+    <div class="container center">
+        <div class="row">
+            <div class="container" style=" padding-top: 120px;">
+                <h1>Welcome to RAZZIL.COM!</h1>
+                <h2>This is a site.</h2>
+                <h4>No more.</h4>
+                <h5>This is a cat.</h5>
+                <p><img src="cat.jpg" height="400"></p>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <footer class="footer fixed-bottom" style="background-color:lightgrey; ">
+            <div class="container" style="color: white; margin-top: 15px; ">
+                <p class="text" style="color: darkslategrey">RAZZIL.COM &copy; Razil Minneakhmetov 2018</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
