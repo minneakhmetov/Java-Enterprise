@@ -1,8 +1,8 @@
 package repositories;
 
-import models.User;
+import models.Like;
 
-public interface LikeRepository {
+
+public interface LikeRepository extends CRUD<Like> {
     void like(Long user_to, Long user_from);
-
 }

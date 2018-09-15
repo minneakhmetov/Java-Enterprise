@@ -3,10 +3,7 @@ package app;
 import lombok.SneakyThrows;
 import models.Message;
 import models.User;
-import repositories.MessageRepository;
-import repositories.MessageRepositoryConnectionImpl;
-import repositories.UserRepository;
-import repositories.UserRepositoryConnectionImpl;
+import repositories.*;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -48,6 +45,8 @@ public class UsersRepositoryDemo {
         //MessageRepository messageRepository = new MessageRepositoryConnectionImpl(connection);
 
         //System.out.println(((MessageRepositoryConnectionImpl) messageRepository).chatId(5L, 6L));
+        LikeRepository likeRepository = new LikeRepositoryConnectionImpl(connection);
+        likeRepository.like(3L, 4L);
 
 
     }
