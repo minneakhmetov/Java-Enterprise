@@ -2,6 +2,6 @@ package repositories;
 
 import models.User;
 
-public interface Call {
+public interface CallRepository {
     void call(User user);
 }

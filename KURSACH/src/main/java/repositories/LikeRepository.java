@@ -3,6 +3,6 @@ package repositories;
 import models.User;
 
 public interface LikeRepository {
-    void like(User user);
-    void deleteLike(User user);
+    void like(Long user_to, Long user_from);
+
 }

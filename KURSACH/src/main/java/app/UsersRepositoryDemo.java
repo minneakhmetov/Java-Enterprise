@@ -1,7 +1,10 @@
 package app;
 
 import lombok.SneakyThrows;
+import models.Message;
 import models.User;
+import repositories.MessageRepository;
+import repositories.MessageRepositoryConnectionImpl;
 import repositories.UserRepository;
 import repositories.UserRepositoryConnectionImpl;
 
@@ -28,18 +31,24 @@ public class UsersRepositoryDemo {
     public static void main(String[] args) throws SQLException {
         Connection connection =
                 DriverManager.getConnection(URL, USERNAME, PASSWORD);
-        UserRepository userRepository = new UserRepositoryConnectionImpl(connection);
-      // Optional<User> user = userRepository.read(1L);
-        User user = User.builder()
-                .firstName("я")
-                .lastName("фамилия")
-                .username("юзернаме")
-                .hashPassword("777")
-                .build();
-        userRepository.create(user);
-       // System.out.println(user);
-        //userRepository.delete(1L);
-        System.out.println("все нормас");
+//        UserRepository userRepository = new UserRepositoryConnectionImpl(connection);
+//      // Optional<User> user = userRepository.read(1L);
+//        User user = User.builder()
+//                .firstName("я")
+//                .lastName("фамилия")
+//                .username("юзернаме")
+//                .hashPassword("777")
+//                .build();
+//        userRepository.create(user);
+//       // System.out.println(user);
+//        //userRepository.delete(1L);
+//        System.out.println("все нормас");
         //System.out.println(user);
+
+        //MessageRepository messageRepository = new MessageRepositoryConnectionImpl(connection);
+
+        //System.out.println(((MessageRepositoryConnectionImpl) messageRepository).chatId(5L, 6L));
+
+
     }
 }
