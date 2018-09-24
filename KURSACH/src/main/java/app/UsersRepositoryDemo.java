@@ -28,25 +28,25 @@ public class UsersRepositoryDemo {
     public static void main(String[] args) throws SQLException {
         Connection connection =
                 DriverManager.getConnection(URL, USERNAME, PASSWORD);
-//        UserRepository userRepository = new UserRepositoryConnectionImpl(connection);
-//      // Optional<User> user = userRepository.read(1L);
-//        User user = User.builder()
-//                .firstName("я")
-//                .lastName("фамилия")
-//                .username("юзернаме")
-//                .hashPassword("777")
-//                .build();
-//        userRepository.create(user);
-//       // System.out.println(user);
-//        //userRepository.delete(1L);
-//        System.out.println("все нормас");
-        //System.out.println(user);
-
-        //MessageRepository messageRepository = new MessageRepositoryConnectionImpl(connection);
-
-        //System.out.println(((MessageRepositoryConnectionImpl) messageRepository).chatId(5L, 6L));
-        LikeRepository likeRepository = new LikeRepositoryConnectionImpl(connection);
-        likeRepository.like(3L, 4L);
+        UserRepository userRepository = new UserRepositoryConnectionImpl(connection);
+      // Optional<User> user = userRepository.read(1L);
+        User user = User.builder()
+                .firstName("арбуз")
+                .lastName("арбузович")
+                .username("AR_abuzzze")
+                .hashPassword("6767")
+                .build();
+        userRepository.create(user);
+       // System.out.println(user);
+        //userRepository.delete(1L);
+        System.out.println("все нормас");
+//        System.out.println(user);
+//
+//        MessageRepository messageRepository = new MessageRepositoryConnectionImpl(connection);
+//
+//        System.out.println(((MessageRepositoryConnectionImpl) messageRepository).chatId(5L, 6L));
+//        LikeRepository likeRepository = new LikeRepositoryConnectionImpl(connection);
+//        likeRepository.like(3L, 4L);
 
 
     }

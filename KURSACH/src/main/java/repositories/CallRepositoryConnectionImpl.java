@@ -3,8 +3,6 @@ package repositories;
 import lombok.SneakyThrows;
 import mappers.RowMapper;
 import models.Call;
-import models.Message;
-import models.User;
 import org.postgresql.util.PSQLException;
 
 import java.sql.*;
@@ -71,18 +69,18 @@ public class CallRepositoryConnectionImpl implements CallRepository {
     @Override
     @SneakyThrows
     public void update(Long id, Call model) {
-        PreparedStatement statement = connection.prepareStatement(SQL_UPDATE_QUERY, PreparedStatement.RETURN_GENERATED_KEYS);
-        statement.setLong(1, model.getCall_id());
-        statement.setLong(2, model.getTo_id());
-        statement.setLong(3, model.getFrom_id());
-        statement.setInt(4, model.getDuration());
-        statement.setTime(5, model.getDate());
-        statement.setLong(6, id);
-        statement.executeUpdate();
-        ResultSet resultSet = statement.getGeneratedKeys();
-        while (resultSet.next()) {
-            model.setId(resultSet.getLong("id"));
-        }
+//        PreparedStatement statement = connection.prepareStatement(SQL_UPDATE_QUERY, PreparedStatement.RETURN_GENERATED_KEYS);
+//        statement.setLong(1, model.getCall_id());
+//        statement.setLong(2, model.getTo_id());
+//        statement.setLong(3, model.getFrom_id());
+//        statement.setInt(4, model.getDuration());
+//        statement.setTime(5, model.getDate());
+//        statement.setLong(6, id);
+//        statement.executeUpdate();
+//        ResultSet resultSet = statement.getGeneratedKeys();
+//        while (resultSet.next()) {
+//            model.setId(resultSet.getLong("id"));
+//        }
     }
 
     @Override
