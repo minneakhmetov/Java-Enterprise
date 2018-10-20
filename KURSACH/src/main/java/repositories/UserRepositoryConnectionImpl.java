@@ -13,10 +13,10 @@ public class UserRepositoryConnectionImpl implements UserRepository {
     private Connection connection;
 
     //language=SQL
-    private static final String SQL_INSERT_QUERY = "insert into active_users(first_name, last_name, username, hashpassword) " +
+    private static final String SQL_INSERT_QUERY = "insert into active_users(first_name, last_name, username, hash_password) " +
             "values (?, ?, ?, ?);";
     //language=SQL
-    private static final String SQL_UPDATE_QUERY = "update active_users set first_name = ?, last_name = ?, username = ?, hashpassword = ? where id = ?";
+    private static final String SQL_UPDATE_QUERY = "update active_users set first_name = ?, last_name = ?, username = ?, hash_password = ? where id = ?";
 
     public UserRepositoryConnectionImpl(Connection connection) {
         this.connection = connection;

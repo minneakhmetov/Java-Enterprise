@@ -16,10 +16,10 @@ public class CallRepositoryConnectionImpl implements CallRepository {
     Random random = new Random();
 
     //language=SQL
-    private static final String SQL_INSERT_QUERY = "insert into call_table(call_id, to_id, from_id, duration, date) " +
+    private static final String SQL_INSERT_QUERY = "insert into call_table(chat_id, to_id, from_id, duration, date) " +
             "values (?, ?, ?, ?, ?);";
     //language=SQL
-    private static final String SQL_UPDATE_QUERY = "update call_table set call_id = ?, to_id = ?, from_id = ?, duration = ?, date = ? where id = ?";
+    private static final String SQL_UPDATE_QUERY = "update call_table set chat_id = ?, to_id = ?, from_id = ?, duration = ?, date = ? where id = ?";
 
     public CallRepositoryConnectionImpl(Connection connection) {
         this.connection = connection;

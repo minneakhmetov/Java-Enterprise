@@ -2,26 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808216b2-3cb0-44c2-a1c2-f995008dc32b" name="Default" comment="added kursach">
-      <change afterPath="$PROJECT_DIR$/../SimpleWebProject/.idea/artifacts/simple_web_project_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleWebProject/.idea/artifacts/simple_web_project_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleWebProject/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleWebProject/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleWebProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleWebProject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleWebProject/simple-web-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db1kinsert/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db1kinsert/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/fa980d98-59ac-4907-94fa-1865d6fcc8e5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fa980d98-59ac-4907-94fa-1865d6fcc8e5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fa980d98-59ac-4907-94fa-1865d6fcc8e5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fa980d98-59ac-4907-94fa-1865d6fcc8e5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/UsersRepositoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/UsersRepositoryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Chat_call.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/ChatСall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repositories/CallRepositoryConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/CallRepositoryConnectionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/UsersRepositoryDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/UsersRepositoryDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Call.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Call.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repositories/CallRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/repositories/CallRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositories/UserRepositoryConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/UserRepositoryConnectionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servak/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +53,14 @@
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
       </path>
       <path>
@@ -66,6 +68,7 @@
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
@@ -74,9 +77,20 @@
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="active_users: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+        <item name="call_table: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="chat: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
       </path>
     </expand>
     <select />
@@ -85,47 +99,55 @@
     <session id="813951135">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="7" />
-          <entry key="dummy" value="12" />
+          <entry key="dummy" value="17" />
           <entry key="java" value="1760" />
-          <entry key="sql" value="54" />
-          <entry key="txt" value="16" />
+          <entry key="sql" value="151" />
+          <entry key="txt" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1760" />
-          <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Scratch" value="61" />
+          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="SQL" value="64" />
+          <entry key="Scratch" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="active_users" value="1" />
+          <entry key="active_users" value="2" />
           <entry key="call_table" value="1" />
           <entry key="chat" value="2" />
-          <entry key="java" value="28" />
+          <entry key="java" value="32" />
           <entry key="like_table" value="1" />
           <entry key="message_table" value="1" />
           <entry key="post_table" value="1" />
-          <entry key="sql" value="3" />
+          <entry key="public" value="1" />
+          <entry key="sql" value="4" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="7" />
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="32" />
           <entry key="SQL" value="1" />
-          <entry key="Scratch" value="2" />
+          <entry key="Scratch" value="3" />
+          <entry key="UML" value="2" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -136,19 +158,155 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CallRepositoryConnectionImpl.java" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/repositories/CallRepositoryConnectionImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="82" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1121">
+              <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="active_users" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="98.5" y="70.5" />
+              <SelectedNodes>
+                <node>fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/fa980d98-59ac-4907-94fa-1865d6fcc8e5.SCHEMA:postgres.public">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>fa980d98-59ac-4907-94fa-1865d6fcc8e5.SCHEMA:postgres.public</OriginalElement>
+              <nodes>
+                <node x="511.93787878787873" y="232.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.chat</node>
+                <node x="587.4378787878787" y="390.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.message_table</node>
+                <node x="250.84848484848484" y="0.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users</node>
+                <node x="361.93787878787873" y="221.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.avatar</node>
+                <node x="40.93787878787873" y="221.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.post_table</node>
+                <node x="201.93787878787876" y="221.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.like_table</node>
+                <node x="0.0" y="390.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.call_table</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.chat" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+                  <point x="33.5" y="-48.5" />
+                  <point x="612.4378787878787" y="181.0" />
+                  <point x="398.59848484848476" y="181.0" />
+                  <point x="49.24999999999994" y="70.5" />
+                </edge>
+                <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.message_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.chat">
+                  <point x="-47.0" y="-81.5" />
+                  <point x="610.9378787878787" y="365.0" />
+                  <point x="612.4378787878787" y="365.0" />
+                  <point x="33.5" y="48.5" />
+                </edge>
+                <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.like_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+                  <point x="-35.0" y="-59.5" />
+                  <point x="236.93787878787876" y="191.0" />
+                  <point x="319.7984848484848" y="191.0" />
+                  <point x="-29.55000000000001" y="70.5" />
+                </edge>
+                <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.call_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+                  <point x="0.0" y="-81.5" />
+                  <point x="69.5" y="365.0" />
+                  <point x="30.43787878787873" y="365.0" />
+                  <point x="30.43787878787873" y="171.0" />
+                  <point x="280.3984848484848" y="171.0" />
+                  <point x="-68.94999999999999" y="70.5" />
+                </edge>
+                <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.avatar" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+                  <point x="0.0" y="-59.5" />
+                  <point x="426.93787878787873" y="201.0" />
+                  <point x="359.1984848484848" y="201.0" />
+                  <point x="9.849999999999966" y="70.5" />
+                </edge>
+                <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.call_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.chat">
+                  <point x="46.33333333333337" y="-81.5" />
+                  <point x="115.83333333333337" y="365.0" />
+                  <point x="545.4378787878787" y="365.0" />
+                  <point x="-33.5" y="48.5" />
+                </edge>
+                <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.message_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+                  <point x="0.0" y="-81.5" />
+                  <point x="658.1818181818181" y="171.0" />
+                  <point x="418.2984848484848" y="171.0" />
+                  <point x="68.94999999999993" y="70.5" />
+                </edge>
+                <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.post_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+                  <point x="0.0" y="-59.5" />
+                  <point x="111.43787878787873" y="181.0" />
+                  <point x="300.0984848484849" y="181.0" />
+                  <point x="-49.25" y="70.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6417112299465241" x="364.0" y="276.5" />
+              <SelectedNodes>
+                <node>fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.avatar</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="76" selection-start-line="13" selection-start-column="3" selection-end-line="15" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/PostRepositoryDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="37" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="35" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repositories/UserRepositoryConnectionImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1311">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="das://fa980d98-59ac-4907-94fa-1865d6fcc8e5/database/postgres/schema/public/table/active_users">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -157,41 +315,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersRepositoryDemo.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/UsersRepositoryDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="760">
-              <caret line="48" column="38" selection-start-line="42" selection-start-column="10" selection-end-line="48" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RowMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mappers/RowMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="call_table" pinned="false" current-in-tab="false">
-        <entry file="das://fa980d98-59ac-4907-94fa-1865d6fcc8e5/database/postgres/schema/public/table/call_table">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageRepositoryConnectionImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/repositories/MessageRepositoryConnectionImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2014">
-              <caret line="116" column="5" selection-start-line="95" selection-start-column="4" selection-end-line="116" selection-end-column="5" />
+              <caret line="48" column="38" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -233,10 +361,11 @@
         <option value="$PROJECT_DIR$/src/main/java/models/Like.java" />
         <option value="$PROJECT_DIR$/src/main/java/repositories/LikeRepositoryConnectionImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/repositories/CRUD.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Call.java" />
         <option value="$PROJECT_DIR$/src/main/java/repositories/CallRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/UsersRepositoryDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/repositories/CallRepositoryConnectionImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Call.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fa980d98-59ac-4907-94fa-1865d6fcc8e5/console_1.sql" />
       </list>
     </option>
   </component>
@@ -246,14 +375,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="540" />
-    <option name="y" value="-20" />
-    <option name="width" value="1135" />
-    <option name="height" value="865" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="605" />
+    <option name="y" value="257" />
+    <option name="width" value="908" />
+    <option name="height" value="693" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -336,16 +462,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537012591001" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538227952389" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleWebProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RazilRestoratorServer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="sql.rename.search.for.storage.occurrences" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -443,6 +570,10 @@
       <workItem from="1537182464421" duration="39000" />
       <workItem from="1537182528043" duration="1384000" />
       <workItem from="1537465090259" duration="1085000" />
+      <workItem from="1537787349810" duration="901000" />
+      <workItem from="1537794509332" duration="2451000" />
+      <workItem from="1538214019393" duration="2637000" />
+      <workItem from="1538514079606" duration="2513000" />
     </task>
     <task id="LOCAL-00001" summary="added kursach">
       <created>1536904502216</created>
@@ -462,40 +593,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33339000" />
+    <option name="totallyTimeSpent" value="41841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32768363" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19395973" />
-      <window_info anchor="right" id="Database" order="6" weight="0.16040269" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1624161" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32768363" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32768363" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.26062322" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.24563758" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,182 +641,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added kursach" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/CallRepositoryConnectionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/UsersRepositoryDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="48" column="38" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="48" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mappers/RowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://fa980d98-59ac-4907-94fa-1865d6fcc8e5/database/postgres/schema/public/table/call_table">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/MessageRepositoryConnectionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2014">
-          <caret line="116" column="5" selection-start-line="95" selection-start-column="4" selection-end-line="116" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://fa980d98-59ac-4907-94fa-1865d6fcc8e5/database/postgres/schema/public/table/active_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/CallRepositoryConnectionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2147">
-          <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mappers/RowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://fa980d98-59ac-4907-94fa-1865d6fcc8e5/database/postgres/schema/public/table/call_table">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/MessageRepositoryConnectionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2014">
-          <caret line="116" column="5" selection-start-line="95" selection-start-column="4" selection-end-line="116" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/BuilderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/fa980d98-59ac-4907-94fa-1865d6fcc8e5.SCHEMA:postgres.public">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>fa980d98-59ac-4907-94fa-1865d6fcc8e5.SCHEMA:postgres.public</OriginalElement>
-          <nodes>
-            <node x="487.0" y="232.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.chat</node>
-            <node x="529.6088154269972" y="390.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.message_table</node>
-            <node x="174.5" y="0.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users</node>
-            <node x="326.0" y="221.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.post_table</node>
-            <node x="0.0" y="232.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.call_chat</node>
-            <node x="166.0" y="221.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.like_table</node>
-            <node x="43.275482093663925" y="390.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.call_table</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.call_chat" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
-              <point x="-33.5" y="-48.5" />
-              <point x="33.5" y="161.0" />
-              <point x="183.27272727272725" y="161.0" />
-              <point x="-87.72727272727275" y="70.5" />
-            </edge>
-            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.chat" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
-              <point x="33.5" y="-48.5" />
-              <point x="587.5" y="181.0" />
-              <point x="323.6363636363637" y="181.0" />
-              <point x="52.63636363636368" y="70.5" />
-            </edge>
-            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.message_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.chat">
-              <point x="-47.0" y="-81.5" />
-              <point x="0.0" y="48.5" />
-            </edge>
-            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.like_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
-              <point x="-35.0" y="-59.5" />
-              <point x="201.0" y="201.0" />
-              <point x="253.4545454545455" y="201.0" />
-              <point x="-17.545454545454504" y="70.5" />
-            </edge>
-            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.call_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
-              <point x="46.33333333333334" y="-81.5" />
-              <point x="159.10881542699727" y="365.0" />
-              <point x="155.5" y="365.0" />
-              <point x="155.5" y="191.0" />
-              <point x="235.90909090909093" y="191.0" />
-              <point x="-35.090909090909065" y="70.5" />
-            </edge>
-            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.message_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
-              <point x="47.0" y="-81.5" />
-              <point x="647.1088154269972" y="365.0" />
-              <point x="642.5" y="365.0" />
-              <point x="642.5" y="161.0" />
-              <point x="358.7272727272728" y="161.0" />
-              <point x="87.7272727272728" y="70.5" />
-            </edge>
-            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.post_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
-              <point x="0.0" y="-59.5" />
-              <point x="396.5" y="201.0" />
-              <point x="288.54545454545456" y="201.0" />
-              <point x="17.54545454545456" y="70.5" />
-            </edge>
-            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.call_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.call_chat">
-              <point x="-46.33333333333334" y="-81.5" />
-              <point x="0.0" y="48.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.6906474820143885" x="338.0" y="277.0" />
-          <SelectedNodes>
-            <node>fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.chat</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/UserRepositoryConnectionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="102" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -758,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/PostRepositoryDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -800,7 +753,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Chat_call.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/ChatСall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -828,16 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Call.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/repositories/CallRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -845,10 +788,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mappers/RowMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Call.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="209">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/MessageRepositoryConnectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2014">
+          <caret line="116" column="5" selection-start-line="95" selection-start-column="4" selection-end-line="116" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -859,23 +809,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/MessageRepositoryConnectionImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mappers/RowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2014">
-          <caret line="116" column="5" selection-start-line="95" selection-start-column="4" selection-end-line="116" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/UsersRepositoryDemo.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fa980d98-59ac-4907-94fa-1865d6fcc8e5/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="48" column="38" selection-start-line="42" selection-start-column="10" selection-end-line="48" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/CallRepositoryConnectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="98.5" y="70.5" />
+          <SelectedNodes>
+            <node>fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/fa980d98-59ac-4907-94fa-1865d6fcc8e5.SCHEMA:postgres.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>fa980d98-59ac-4907-94fa-1865d6fcc8e5.SCHEMA:postgres.public</OriginalElement>
+          <nodes>
+            <node x="511.93787878787873" y="232.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.chat</node>
+            <node x="587.4378787878787" y="390.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.message_table</node>
+            <node x="250.84848484848484" y="0.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users</node>
+            <node x="361.93787878787873" y="221.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.avatar</node>
+            <node x="40.93787878787873" y="221.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.post_table</node>
+            <node x="201.93787878787876" y="221.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.like_table</node>
+            <node x="0.0" y="390.0">fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.call_table</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.chat" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+              <point x="33.5" y="-48.5" />
+              <point x="612.4378787878787" y="181.0" />
+              <point x="398.59848484848476" y="181.0" />
+              <point x="49.24999999999994" y="70.5" />
+            </edge>
+            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.message_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.chat">
+              <point x="-47.0" y="-81.5" />
+              <point x="610.9378787878787" y="365.0" />
+              <point x="612.4378787878787" y="365.0" />
+              <point x="33.5" y="48.5" />
+            </edge>
+            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.like_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+              <point x="-35.0" y="-59.5" />
+              <point x="236.93787878787876" y="191.0" />
+              <point x="319.7984848484848" y="191.0" />
+              <point x="-29.55000000000001" y="70.5" />
+            </edge>
+            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.call_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+              <point x="0.0" y="-81.5" />
+              <point x="69.5" y="365.0" />
+              <point x="30.43787878787873" y="365.0" />
+              <point x="30.43787878787873" y="171.0" />
+              <point x="280.3984848484848" y="171.0" />
+              <point x="-68.94999999999999" y="70.5" />
+            </edge>
+            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.avatar" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+              <point x="0.0" y="-59.5" />
+              <point x="426.93787878787873" y="201.0" />
+              <point x="359.1984848484848" y="201.0" />
+              <point x="9.849999999999966" y="70.5" />
+            </edge>
+            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.call_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.chat">
+              <point x="46.33333333333337" y="-81.5" />
+              <point x="115.83333333333337" y="365.0" />
+              <point x="545.4378787878787" y="365.0" />
+              <point x="-33.5" y="48.5" />
+            </edge>
+            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.message_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+              <point x="0.0" y="-81.5" />
+              <point x="658.1818181818181" y="171.0" />
+              <point x="418.2984848484848" y="171.0" />
+              <point x="68.94999999999993" y="70.5" />
+            </edge>
+            <edge source="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.post_table" target="fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.active_users">
+              <point x="0.0" y="-59.5" />
+              <point x="111.43787878787873" y="181.0" />
+              <point x="300.0984848484849" y="181.0" />
+              <point x="-49.25" y="70.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6417112299465241" x="364.0" y="276.5" />
+          <SelectedNodes>
+            <node>fa980d98-59ac-4907-94fa-1865d6fcc8e5.TABLE:postgres.public.avatar</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="76" selection-start-line="13" selection-start-column="3" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/PostRepositoryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="37" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -886,13 +957,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/CallRepositoryConnectionImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/UsersRepositoryDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="82" selection-end-column="11" />
+        <state relative-caret-position="760">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/UserRepositoryConnectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1311">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>

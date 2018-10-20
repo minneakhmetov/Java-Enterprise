@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b1ab311-96e6-4cba-af33-f4f336fabe0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/db1kinsert/.idea/copyright/RazilMinneakhmetov.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db1kinsert/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db1kinsert/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db1kinsert/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db1kinsert/src/main/java/app/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db1kinsert/src/main/java/app/SQLTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db1kinsert/src/main/java/app/Views.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KURSACH/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KURSACH/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KURSACH/.idea/dataSources/fa980d98-59ac-4907-94fa-1865d6fcc8e5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KURSACH/.idea/dataSources/fa980d98-59ac-4907-94fa-1865d6fcc8e5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KURSACH/.idea/dataSources/fa980d98-59ac-4907-94fa-1865d6fcc8e5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/KURSACH/.idea/dataSources/fa980d98-59ac-4907-94fa-1865d6fcc8e5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KURSACH/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KURSACH/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KURSACH/src/main/java/models/Chat_call.java" beforeDir="false" afterPath="$PROJECT_DIR$/KURSACH/src/main/java/models/ChatСall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KURSACH/src/main/java/repositories/CallRepositoryConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/KURSACH/src/main/java/repositories/CallRepositoryConnectionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KURSACH/src/main/java/repositories/UserRepositoryConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/KURSACH/src/main/java/repositories/UserRepositoryConnectionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servak/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-717262245">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/servak/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/cookies/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/ejs/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/filereader/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/fs/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/http/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/jsonfile/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/keygrip/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/raw-body/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/raw-body/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/raw-body/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/servak/node_modules/wjs/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/cookies/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/ejs/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/filereader/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/fs/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/http/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/jsonfile/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/keygrip/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/raw-body/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/raw-body/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/raw-body/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/хз что это/node_modules/wjs/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="540" />
+    <option name="y" value="-20" />
+    <option name="width" value="1135" />
+    <option name="height" value="865" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="parseBd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java Enterprise" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b1ab311-96e6-4cba-af33-f4f336fabe0e" name="Default Changelist" comment="" />
+      <created>1539849098680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539849098680</updated>
+      <workItem from="1539849101623" duration="205000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="205000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>Razil Minneakhmetov</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
