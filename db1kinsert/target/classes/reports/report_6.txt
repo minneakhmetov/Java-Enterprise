@@ -1,0 +1,63 @@
+Report #6 for 1000000 inserts.
+Iteration #0. Elapsed time 1547 milliseconds.
+Iteration #1. Elapsed time 944 milliseconds.
+Iteration #2. Elapsed time 949 milliseconds.
+Iteration #3. Elapsed time 853 milliseconds.
+Iteration #4. Elapsed time 945 milliseconds.
+Iteration #5. Elapsed time 1011 milliseconds.
+Iteration #6. Elapsed time 950 milliseconds.
+Iteration #7. Elapsed time 977 milliseconds.
+Iteration #8. Elapsed time 1127 milliseconds.
+Iteration #9. Elapsed time 1041 milliseconds.
+Iteration #10. Elapsed time 957 milliseconds.
+Iteration #11. Elapsed time 1097 milliseconds.
+Iteration #12. Elapsed time 1122 milliseconds.
+Iteration #13. Elapsed time 1026 milliseconds.
+Iteration #14. Elapsed time 915 milliseconds.
+Iteration #15. Elapsed time 965 milliseconds.
+Iteration #16. Elapsed time 1025 milliseconds.
+Iteration #17. Elapsed time 945 milliseconds.
+Iteration #18. Elapsed time 931 milliseconds.
+Iteration #19. Elapsed time 876 milliseconds.
+Iteration #20. Elapsed time 939 milliseconds.
+Iteration #21. Elapsed time 1086 milliseconds.
+Iteration #22. Elapsed time 965 milliseconds.
+Iteration #23. Elapsed time 948 milliseconds.
+Iteration #24. Elapsed time 1002 milliseconds.
+Iteration #25. Elapsed time 967 milliseconds.
+Iteration #26. Elapsed time 973 milliseconds.
+Iteration #27. Elapsed time 971 milliseconds.
+Iteration #28. Elapsed time 982 milliseconds.
+Iteration #29. Elapsed time 1003 milliseconds.
+Iteration #30. Elapsed time 965 milliseconds.
+Iteration #31. Elapsed time 896 milliseconds.
+Iteration #32. Elapsed time 981 milliseconds.
+Iteration #33. Elapsed time 994 milliseconds.
+Iteration #34. Elapsed time 958 milliseconds.
+Iteration #35. Elapsed time 892 milliseconds.
+Iteration #36. Elapsed time 944 milliseconds.
+Iteration #37. Elapsed time 969 milliseconds.
+Iteration #38. Elapsed time 1004 milliseconds.
+Iteration #39. Elapsed time 1027 milliseconds.
+Iteration #40. Elapsed time 1065 milliseconds.
+Iteration #41. Elapsed time 974 milliseconds.
+Iteration #42. Elapsed time 1276 milliseconds.
+Iteration #43. Elapsed time 1086 milliseconds.
+Iteration #44. Elapsed time 1098 milliseconds.
+Iteration #45. Elapsed time 1008 milliseconds.
+Iteration #46. Elapsed time 1008 milliseconds.
+Iteration #47. Elapsed time 968 milliseconds.
+Iteration #48. Elapsed time 1017 milliseconds.
+Iteration #49. Elapsed time 1014 milliseconds.
+Iteration #50. Elapsed time 969 milliseconds.
+Iteration #51. Elapsed time 1116 milliseconds.
+Iteration #52. Elapsed time 1406 milliseconds.
+Iteration #53. Elapsed time 1342 milliseconds.
+Iteration #54. Elapsed time 1115 milliseconds.
+Iteration #55. Elapsed time 1101 milliseconds.
+Iteration #56. Elapsed time 1131 milliseconds.
+Iteration #57. Elapsed time 1116 milliseconds.
+_______________________End________________________
+Average time: 1025
+Iteration amount: 58
+TPS: 17

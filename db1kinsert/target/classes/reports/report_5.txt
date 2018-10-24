@@ -1,0 +1,1 @@
+Report #5 for 1000000 inserts.

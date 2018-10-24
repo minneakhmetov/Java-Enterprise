@@ -9,6 +9,7 @@ package app;
 import lombok.SneakyThrows;
 
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Main {
@@ -23,6 +24,8 @@ public class Main {
 
     private static final int VALUE = 1234;
 
+    private static final int TIME_SECONDS = 60;
+
     private static Connection connection;
 
     //static Random random = new Random(System.currentTimeMillis());
@@ -30,21 +33,48 @@ public class Main {
     @SneakyThrows
     public static void main(String[] args) {
         connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        FileReader reader = new FileReader();
+        String query = reader.parseSQLQuery();
         //System.out.println(random.nextInt(100));
+        TPSManager manager = new TPSManager(connection);
+        ArrayList<Long> arrayList = new ArrayList<Long>();
+        manager.reportWriter("Report #" + manager.number + " for " + manager.getNumberOfInserts() + " inserts."  );
+        long startTime = System.currentTimeMillis()/1000;
+        for (int i = 0; System.currentTimeMillis()/1000 < startTime + TIME_SECONDS; i++) {
+            //Timestamp start = currentTimeStamp();
+            long start = System.currentTimeMillis();
+            manager.executeQuery(query);
+            long end = System.currentTimeMillis();
+            //Timestamp end = currentTimeStamp();
+            long time = end - start;
+            arrayList.add(time);
+            manager.reportWriter("Iteration #" + i + ". Elapsed time " + time + " milliseconds.");
+        }
 
-        Views views = new Views(connection);
-        views.dropView();
-        views.createView();
-        Timestamp start = currentTimeStamp();
-        views.selectFromView();
-        Timestamp end = currentTimeStamp();
-        long viewTime = (end.getNanos() - start.getNanos()) / 1000;
-        start = currentTimeStamp();
-        views.selectFromTable();
-        end = currentTimeStamp();
-        long tableTime = (end.getNanos() - start.getNanos()) / 1000;
-        System.out.println("Elapsed time for view: " + viewTime + " microseconds.");
-        System.out.println("Elapsed time for table: " + tableTime + " microseconds.");
+        long averageTime = 0;
+        for (Long anArrayList : arrayList)
+            averageTime += anArrayList;
+        averageTime /= arrayList.size();
+
+        manager.reportWriter("_______________________End________________________");
+        manager.reportWriter("Average time: " + averageTime);
+        manager.reportWriter("Iteration amount: " + arrayList.size());
+        manager.reportWriter("TPS: " + (averageTime/arrayList.size()));
+
+
+//        Views views = new Views(connection);
+//        views.dropView();
+//        views.createView();
+//        Timestamp start = currentTimeStamp();
+//        views.selectFromView();
+//        Timestamp end = currentTimeStamp();
+//        long viewTime = (end.getNanos() - start.getNanos()) / 1000;
+//        start = currentTimeStamp();
+//        views.selectFromTable();
+//        end = currentTimeStamp();
+//        long tableTime = (end.getNanos() - start.getNanos()) / 1000;
+//        System.out.println("Elapsed time for view: " + viewTime + " microseconds.");
+//        System.out.println("Elapsed time for table: " + tableTime + " microseconds.");
 
 
 //        dropSequence();
@@ -71,10 +101,10 @@ public class Main {
         Statement statement = connection.createStatement();
         //language=SQL
         String SQL_QUERY = "CREATE SEQUENCE value_seq OWNED BY extra.value";
-            if(cache_on) {
-                //language=SQL
-                SQL_QUERY += " CACHE " + cache;
-            }
+        if (cache_on) {
+            //language=SQL
+            SQL_QUERY += " CACHE " + cache;
+        }
         //language=SQL
         SQL_QUERY += ";" +
                 "SELECT setval('value_seq', (Select max(value) from extra) + 1);" +

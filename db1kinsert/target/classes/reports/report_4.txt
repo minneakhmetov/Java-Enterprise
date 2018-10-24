@@ -1,0 +1,11 @@
+Report #4 for 1000000 inserts.
+Iteration #0. Elapsed time 10618 milliseconds.
+Iteration #1. Elapsed time 10748 milliseconds.
+Iteration #2. Elapsed time 11628 milliseconds.
+Iteration #3. Elapsed time 10954 milliseconds.
+Iteration #4. Elapsed time 10615 milliseconds.
+Iteration #5. Elapsed time 10489 milliseconds.
+_______________________End________________________
+Average time: 10842
+Iteration amount: 6
+TPS: 1807

@@ -2,28 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23532cd1-afc9-4002-b1d6-1aba665f7b18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db1kinsert/.idea/copyright/RazilMinneakhmetov.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db1kinsert/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db1kinsert/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db1kinsert/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db1kinsert/src/main/java/app/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db1kinsert/src/main/java/app/SQLTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db1kinsert/src/main/java/app/Views.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FileReaderClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/query.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KURSACH/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KURSACH/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KURSACH/.idea/dataSources/fa980d98-59ac-4907-94fa-1865d6fcc8e5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KURSACH/.idea/dataSources/fa980d98-59ac-4907-94fa-1865d6fcc8e5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KURSACH/.idea/dataSources/fa980d98-59ac-4907-94fa-1865d6fcc8e5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../KURSACH/.idea/dataSources/fa980d98-59ac-4907-94fa-1865d6fcc8e5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KURSACH/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KURSACH/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KURSACH/src/main/java/models/Chat_call.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KURSACH/src/main/java/models/ChatСall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KURSACH/src/main/java/repositories/CallRepositoryConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KURSACH/src/main/java/repositories/CallRepositoryConnectionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KURSACH/src/main/java/repositories/UserRepositoryConnectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KURSACH/src/main/java/repositories/UserRepositoryConnectionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servak/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCart/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCart/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCart/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingCart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db1kinsert/src/main/java/app/ProgressDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db1kinsert/src/main/java/app/TPSManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db1kinsert/src/main/resources/sql/query.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db1kinsert/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../db1kinsert/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db1kinsert/src/main/java/app/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../db1kinsert/src/main/java/app/FileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db1kinsert/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../db1kinsert/src/main/java/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db1kinsert/target/classes/app/FileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../db1kinsert/target/classes/app/FileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db1kinsert/target/classes/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../db1kinsert/target/classes/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,9 +94,11 @@
     <session id="77395217">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -120,7 +116,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2690" />
+          <entry key="java" value="2694" />
           <entry key="sql" value="32" />
           <entry key="txt" value="5" />
           <entry key="xml" value="2" />
@@ -128,7 +124,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2690" />
+          <entry key="JAVA" value="2694" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SQL" value="32" />
           <entry key="XML" value="2" />
@@ -154,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FileReaderClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="129" column="9" lean-forward="true" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+            <state relative-caret-position="356">
+              <caret line="126" column="5" selection-start-line="122" selection-start-column="4" selection-end-line="131" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,15 +159,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="121" column="74" lean-forward="true" selection-start-line="121" selection-start-column="74" selection-end-line="121" selection-end-column="74" />
+            <state relative-caret-position="1577">
+              <caret line="121" column="74" selection-start-line="121" selection-start-column="74" selection-end-line="121" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
                 <element signature="method#insertFirstGenome#0;class#Repository#0" />
                 <element signature="method#deleteAll#0;class#Repository#0" />
               </folding>
@@ -179,7 +173,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/sql/query.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1273">
@@ -196,8 +190,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="41" column="101" selection-start-line="41" selection-start-column="101" selection-end-line="41" selection-end-column="101" />
+            <state relative-caret-position="19">
+              <caret line="14" column="152" selection-start-line="14" selection-start-column="152" selection-end-line="14" selection-end-column="152" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -235,7 +229,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="540" />
     <option name="y" value="-20" />
     <option name="width" value="1135" />
@@ -247,9 +241,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,20 +281,29 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="genome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="genomeDataBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="genomeDataBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540037793055" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../db1kinsert" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540362777221" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -346,18 +348,19 @@
       <option name="presentableId" value="Default" />
       <updated>1539855858512</updated>
       <workItem from="1539855864507" duration="1919000" />
-      <workItem from="1540029250582" duration="7084000" />
+      <workItem from="1540029250582" duration="7282000" />
+      <workItem from="1540046867134" duration="2637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9003000" />
+    <option name="totallyTimeSpent" value="11838000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -366,7 +369,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -401,22 +404,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FileReaderClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="129" column="9" lean-forward="true" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+        <state relative-caret-position="1577">
+          <caret line="121" column="74" selection-start-line="121" selection-start-column="74" selection-end-line="121" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="41" column="101" selection-start-line="41" selection-start-column="101" selection-end-line="41" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#insertFirstGenome#0;class#Repository#0" />
+            <element signature="method#deleteAll#0;class#Repository#0" />
           </folding>
         </state>
       </provider>
@@ -424,24 +419,30 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a029d99-6aee-42d6-800c-2cee265d4f35/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="14" column="152" selection-start-line="14" selection-start-column="152" selection-end-line="14" selection-end-column="152" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FileReaderClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="126" column="5" selection-start-line="122" selection-start-column="4" selection-end-line="131" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql/query.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1273">
           <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="121" column="74" lean-forward="true" selection-start-line="121" selection-start-column="74" selection-end-line="121" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="method#insertFirstGenome#0;class#Repository#0" />
-            <element signature="method#deleteAll#0;class#Repository#0" />
-          </folding>
         </state>
       </provider>
     </entry>

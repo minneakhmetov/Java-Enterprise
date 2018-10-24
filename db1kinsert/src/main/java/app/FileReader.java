@@ -6,11 +6,13 @@
 
 package app;
 
+import lombok.NoArgsConstructor;
 import lombok.SneakyThrows;
 
 import java.io.File;
 import java.util.Scanner;
 
+@NoArgsConstructor
 public class FileReader {
 
     private String folderPath;
@@ -32,6 +34,17 @@ public class FileReader {
                 result[count] += scanner.nextLine() + '\n';
             }
             count++;
+        }
+        return result;
+    }
+
+    @SneakyThrows
+    public String parseSQLQuery() {
+        String SQL_PATH = "C:\\Users\\razil\\Desktop\\Java Enterprise\\db1kinsert\\src\\main\\resources\\sql\\query.sql\\";
+        Scanner scanner = new Scanner(new File(SQL_PATH));
+        String result = "";
+        while (scanner.hasNext()){
+            result += scanner.nextLine() + '\n';
         }
         return result;
     }
