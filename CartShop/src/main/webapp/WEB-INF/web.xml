@@ -1,0 +1,22 @@
+<!--
+  ~ Developed by Razil Minneakhmetov on 10/25/18 7:50 PM.
+  ~ Last modified 10/22/18 10:37 AM.
+  ~ Copyright © 2018. All rights reserved.
+  -->
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <listener>
+        <listener-class>context.DBConnector</listener-class>
+    </listener>
+
+    <context-param>
+        <param-name>javax.servlet.jsp.jstl.fmt.request.charset</param-name>
+        <param-value>UTF-8</param-value>
+    </context-param>
+
+</web-app>
