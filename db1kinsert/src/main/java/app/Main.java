@@ -40,6 +40,7 @@ public class Main {
         ArrayList<Long> arrayList = new ArrayList<Long>();
         manager.reportWriter("Report #" + manager.number + " for " + manager.getNumberOfInserts() + " inserts."  );
         long startTime = System.currentTimeMillis()/1000;
+
         for (int i = 0; System.currentTimeMillis()/1000 < startTime + TIME_SECONDS; i++) {
             //Timestamp start = currentTimeStamp();
             long start = System.currentTimeMillis();

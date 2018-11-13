@@ -37,7 +37,7 @@ public class DBConnector implements ServletContextListener {
         context.setAttribute("avatarRepository", avatarRepository);
         context.setAttribute("cartRepository", cartRepository);
         context.setAttribute("productRepository", productRepository);
-        context.setAttribute("avatarRepository", userRepository);
+        context.setAttribute("userRepository", userRepository);
     }
 
     @Override
