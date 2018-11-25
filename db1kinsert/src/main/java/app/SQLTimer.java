@@ -16,7 +16,7 @@ public class SQLTimer {
     private static final String USERNAME = "postgres";
     private static final String PASSWORD = "r1a2z3i4l5";
     private static final String URL = "jdbc:postgresql://localhost:5432/";
-    private static final String DATABASE_NAME = "test2";
+    private static final String DATABASE_NAME = "test";
 
     private static final String BEFORE_QUERYING_PATH = "C:\\Users\\razil\\Desktop\\бд\\sql\\before\\";
     private static final String QUERYING_PATH = "C:\\Users\\razil\\Desktop\\бд\\sql\\after\\";
@@ -28,12 +28,12 @@ public class SQLTimer {
 
     @SneakyThrows
     public static void main(String[] args) {
-        connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        connection = DriverManager.getConnection(URL+ DATABASE_NAME, USERNAME, PASSWORD);
         FileReader beforeQuerying = new FileReader(BEFORE_QUERYING_PATH);
         FileReader querying = new FileReader(QUERYING_PATH);
 
-        createDataBase();
-        connection = DriverManager.getConnection(URL + DATABASE_NAME, USERNAME, PASSWORD);
+        //createDataBase();
+        connection = DriverManager.getConnection(URL , USERNAME, PASSWORD);
         //String[] queryingArray = querying.getQueries();
         //String[] beforeQueryingArray = beforeQuerying.getQueries();
         executeNotTimeQueries(beforeQuerying.getQueries());

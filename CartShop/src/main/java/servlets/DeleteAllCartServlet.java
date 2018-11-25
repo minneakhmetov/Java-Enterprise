@@ -6,6 +6,7 @@
 
 package servlets;
 
+import context.ApplicationContext;
 import repositories.CartRepository;
 import services.CartService;
 
@@ -26,8 +27,7 @@ public class DeleteAllCartServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Long userId = Long.valueOf(request.getParameter("userId"));
-        CartService cartService =
-                new CartService((CartRepository) getServletContext().getAttribute("cartRepository"));
+        CartService cartService = (CartService) ApplicationContext.getContext().getAttribute("cartService");
         cartService.deleteAllCart(userId);
     }
 }

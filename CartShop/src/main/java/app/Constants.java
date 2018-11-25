@@ -13,6 +13,4 @@ public class Constants {
     public static final String REDIRECT_URI = "http://localhost:8000";
     public static final String REDIRECT_URI_VK = "http://oauth.vk.com/blank.html";
 
-    public static int total = 0;
-
 }

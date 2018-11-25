@@ -4,7 +4,8 @@
 <%@ page import="models.Product" %>
 <%@ page import="repositories.CartRepository" %>
 <%@ page import="services.CartService" %>
-<%@ page import="app.Constants" %><%--
+<%@ page import="app.Constants" %>
+<%@ page import="context.ApplicationContext" %><%--
   ~ Developed by Razil Minneakhmetov on 10/25/18 8:00 PM.
   ~ Last modified 10/25/18 8:00 PM.
   ~ Copyright © 2018. All rights reserved.
@@ -181,11 +182,9 @@
 </nav>
 
 <%
-    ServletContext context = request.getServletContext();
 
     ProductService service
-            = new ProductService((ProductRepository) context.getAttribute("productRepository"),
-            (CartRepository) context.getAttribute("cartRepository"));
+            = (ProductService) ApplicationContext.getContext().getAttribute("productService");
 
     String query = request.getParameter("query");
     List<Product> list = service.find(query);

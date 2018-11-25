@@ -6,8 +6,8 @@
 
 package servlets;
 
+import context.ApplicationContext;
 import models.Cart;
-import repositories.CartRepository;
 import services.CartService;
 
 import javax.servlet.ServletException;
@@ -32,8 +32,7 @@ public class CartServlet extends HttpServlet {
                 .productId(productId)
                 .userId(userId)
                 .build();
-        CartService cartService =
-                new CartService((CartRepository) getServletContext().getAttribute("cartRepository"));
+        CartService cartService = (CartService) ApplicationContext.getContext().getAttribute("cartService");
         cartService.addToCart(cart);
         response.sendError(200);
     }

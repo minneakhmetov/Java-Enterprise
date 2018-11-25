@@ -13,7 +13,7 @@ import org.springframework.jdbc.core.RowMapper;
 import javax.sql.DataSource;
 
 
-public class UserRepository {
+public class UserRepository implements Repository {
 
     //language=SQL
     private static final String SQL_INSERT =

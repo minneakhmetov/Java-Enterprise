@@ -19,7 +19,7 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Random;
 
-public class ProductRepository {
+public class ProductRepository implements Repository{
     private JdbcTemplate jdbcTemplate;
     private Random random;
 

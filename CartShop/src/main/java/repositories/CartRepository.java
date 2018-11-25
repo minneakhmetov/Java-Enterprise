@@ -14,7 +14,7 @@ import org.springframework.jdbc.core.RowMapper;
 import javax.sql.DataSource;
 import java.util.List;
 
-public class CartRepository {
+public class CartRepository implements Repository {
 
     private JdbcTemplate jdbcTemplate;
 

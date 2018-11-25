@@ -10,6 +10,7 @@ import forms.LoginForm;
 import models.Product;
 import repositories.CartRepository;
 import repositories.ProductRepository;
+import repositories.Repository;
 
 import java.util.List;
 
@@ -18,9 +19,9 @@ public class ProductService {
     private ProductRepository repository;
     private CartRepository cartRepository;
 
-    public ProductService(ProductRepository repository, CartRepository cartRepository) {
-        this.repository = repository;
-        this.cartRepository = cartRepository;
+    public ProductService(Repository productRepository, Repository cartRepository) {
+        this.repository = (ProductRepository) productRepository;
+        this.cartRepository = (CartRepository) cartRepository;
     }
 
     public List<Product> getAll(){

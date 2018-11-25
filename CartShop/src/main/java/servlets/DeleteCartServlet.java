@@ -7,6 +7,7 @@
 package servlets;
 
 import app.Constants;
+import context.ApplicationContext;
 import models.Cart;
 import models.Product;
 import repositories.CartRepository;
@@ -31,15 +32,9 @@ public class DeleteCartServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-
         Long productId = Long.valueOf(request.getParameter("productId"));
         Long userId = Long.valueOf(request.getParameter("userId"));
-        CartService cartService =
-                new CartService((CartRepository) getServletContext().getAttribute("cartRepository"));
-
-        ProductService productService =
-                new ProductService((ProductRepository) getServletContext().getAttribute("productRepository"),
-                                    (CartRepository) getServletContext().getAttribute("cartRepository"));
+        CartService cartService = (CartService) ApplicationContext.getContext().getAttribute("cartService");
         cartService.deleteFromCart(productId, userId);
 
 

@@ -23,10 +23,13 @@ public class DBConnector implements ServletContextListener {
     @SneakyThrows
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         Class.forName("org.postgresql.Driver");
+
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setUrl("jdbc:postgresql://localhost:5432/stickershop");
         dataSource.setUsername("postgres");
         dataSource.setPassword("r1a2z3i4l5");
+
+
         AvatarRepository avatarRepository = new AvatarRepository(dataSource);
         CartRepository cartRepository = new CartRepository(dataSource);
         ProductRepository productRepository = new ProductRepository(dataSource);

@@ -20,6 +20,7 @@ import com.vk.api.sdk.objects.wall.responses.GetResponse;
 import com.vk.api.sdk.queries.account.AccountGetInfoQuery;
 import com.vk.api.sdk.queries.users.UserField;
 import com.vk.api.sdk.queries.wall.WallGetFilter;
+import context.ApplicationContext;
 import forms.LoginForm;
 import lombok.SneakyThrows;
 import models.User;
@@ -45,8 +46,8 @@ public class LoginServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String code = request.getParameter("code");
         ServletContext context = getServletContext();
-        VKAuthService service = new VKAuthService();
-        UserXtrCounters VKUser = service.auth(code);
+        VKAuthService vkAuthService = (VKAuthService) ApplicationContext.getContext().getAttribute("vkAuthService");
+        UserXtrCounters VKUser = vkAuthService.auth(code);
 
         LoginForm loginForm = LoginForm.builder()
                 .vkId(Long.valueOf(VKUser.getId()))

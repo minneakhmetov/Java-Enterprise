@@ -2,65 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c89caee8-0374-423d-b7ef-e200b53deffa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CartShop/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/app/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/context/DBConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/forms/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/models/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/repositories/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/services/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/servlets/CartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/servlets/DeleteCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/servlets/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/servlets/LogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/servlets/MainServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/servlets/UsersServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/webapp/jsp/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/libraries/Maven__org_postgresql_postgresql_42_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/MatView.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/src/main/java/app/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/src/main/java/app/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlaceFinder/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlaceFinder/.idea/copyright/RazilMinneakhmetov.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlaceFinder/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlaceFinder/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/TPSMeter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inExists/inExists.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inExists/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inExists/src/main/java/app/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inExists/src/main/java/app/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inExists/src/main/java/app/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inExists/src/main/java/app/TimePicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/.idea/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatView/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CartShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/CartShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/StickerShop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/src/main/java/Klass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/src/main/java/Klasss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CartShop/target/CartShop-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/target/CartShop-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CartShop/target/CartShop-1.0-SNAPSHOT/WEB-INF/classes/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/target/CartShop-1.0-SNAPSHOT/WEB-INF/classes/servlets/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CartShop/target/classes/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/target/classes/servlets/LoginServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/ProgressDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/ProgressDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../genomeDataBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../genomeDataBase/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../genomeDataBase/src/main/resources/sql/query.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../genomeDataBase/src/main/resources/sql/query.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../genomeDataBase/target/classes/sql/query.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../genomeDataBase/target/classes/sql/query.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servak/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/SQLTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SQLTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/SQLTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/SQLTimer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,41 +37,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
     </expand>
     <select />
   </component>
@@ -128,13 +44,14 @@
     <session id="1317120528">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -142,36 +59,38 @@
           <entry key="extra" value="1" />
           <entry key="extra_id_seq" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
           <entry key="sql" value="2" />
           <entry key="txt" value="12" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="9" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4649" />
+          <entry key="java" value="5402" />
           <entry key="sql" value="109" />
           <entry key="txt" value="4" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4649" />
+          <entry key="JAVA" value="5402" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="SQL" value="36" />
           <entry key="Scratch" value="73" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -182,11 +101,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="43" column="82" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="82" />
+            <state relative-caret-position="-651">
+              <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,23 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/reports/report_7.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
               <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/TPSManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="65" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -236,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/SQLTimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="-171">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -246,10 +153,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/FileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="41" column="18" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="18" />
+            <state relative-caret-position="279">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -296,9 +212,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f809c470-161e-4400-a978-cf954e5d163d/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/app/SQLTimer.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/Views.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/TPSManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/FileReader.java" />
@@ -306,6 +220,8 @@
         <option value="$PROJECT_DIR$/src/main/java/app/ProgressDemo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/reports/report_6.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/reports/report_7.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/app/SQLTimer.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/Main.java" />
       </list>
     </option>
@@ -316,11 +232,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1614" />
-    <option name="height" value="878" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-2" />
+    <option name="y" value="80" />
+    <option name="width" value="1554" />
+    <option name="height" value="849" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -331,6 +254,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -396,18 +321,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540362777190" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543042635308" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect" value="PostgreSQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TPSMeter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaFX11-example-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="copyright.profiles" />
@@ -472,8 +395,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ProgressDemo" />
         <item itemvalue="Application.SQLTimer" />
+        <item itemvalue="Application.ProgressDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -495,16 +418,18 @@
       <workItem from="1540029251155" duration="10852000" />
       <workItem from="1540451898151" duration="1972000" />
       <workItem from="1541360063509" duration="2485000" />
+      <workItem from="1542119271336" duration="2581000" />
+      <workItem from="1542449600321" duration="16938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42754000" />
+    <option name="totallyTimeSpent" value="62273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15973154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -513,23 +438,23 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23654391" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34135976" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32577905" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.10939597" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.086577184" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
@@ -569,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://f809c470-161e-4400-a978-cf954e5d163d/database/test/schema/public/table/extra">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -599,16 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="43" column="82" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/TPSManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1083">
@@ -616,6 +524,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/reports/report_7.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -633,30 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/SQLTimer.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/query.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="570">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -670,10 +565,40 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/reports/report_5.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/reports/report_7.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="279">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/SQLTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/query.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

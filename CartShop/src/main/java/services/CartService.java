@@ -9,6 +9,7 @@ package services;
 import models.Cart;
 import models.Product;
 import repositories.CartRepository;
+import repositories.Repository;
 
 import java.util.List;
 
@@ -16,8 +17,8 @@ public class CartService {
 
     private CartRepository repository;
 
-    public CartService(CartRepository repository) {
-        this.repository = repository;
+    public CartService(Repository repository) {
+        this.repository = (CartRepository) repository;
     }
 
     public void addToCart(Cart cart){

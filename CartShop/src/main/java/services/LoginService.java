@@ -8,13 +8,14 @@ package services;
 
 import forms.LoginForm;
 import models.User;
+import repositories.Repository;
 import repositories.UserRepository;
 
 public class LoginService {
     private UserRepository repository;
 
-    public LoginService(UserRepository repository) {
-        this.repository = repository;
+    public LoginService(Repository repository) {
+        this.repository = (UserRepository) repository;
     }
 
     public User login(LoginForm loginForm){

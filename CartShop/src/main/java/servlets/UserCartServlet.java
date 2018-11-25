@@ -7,6 +7,7 @@
 package servlets;
 
 import com.google.gson.Gson;
+import context.ApplicationContext;
 import models.Product;
 import repositories.CartRepository;
 import services.CartService;
@@ -30,7 +31,7 @@ public class UserCartServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Long userId = Long.valueOf(request.getParameter("userId"));
-        CartService cartService = new CartService((CartRepository) getServletContext().getAttribute("cartRepository"));
+        CartService cartService = (CartService) ApplicationContext.getContext().getAttribute("cartService");
 
 
         List<Product> products = cartService.getProductsInCart(userId);
