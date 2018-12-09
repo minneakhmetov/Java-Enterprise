@@ -4,6 +4,12 @@
  * Copyright © 2018. All rights reserved.
  */
 var total = 0;
+var photo = '';
+var userName = '';
+var code = false;
+var flag = false;
+var userId = 0;
+
 function addToCart(productId, userId) {
     var xhr = new XMLHttpRequest();
 
@@ -35,8 +41,8 @@ function sendProductId() {
             userId: getCookie('vk_id')
         }
     }).done(function (data) {
-        contentTableHTML += '<div class="container">';
-        var contentTableHTML = "<ul class=\"list-group\">";
+        var contentTableHTML = '<div class="container p-0">';
+        contentTableHTML += "<ul class=\"list-group\">";
         total = 0;
 
         for (var i = 0; i < data.length; i++) {
@@ -45,7 +51,7 @@ function sendProductId() {
 
             contentTableHTML += '<div class="row">';
             contentTableHTML += '<div class="col-md-2">';
-            contentTableHTML += '<img src="'+  data[i].avatar + '" height="50px" style="margin-bottom: 15px">';
+            contentTableHTML += '<img src="' + data[i].avatar + '" height="50px" style="margin-bottom: 15px">';
             contentTableHTML += '</div>';
             contentTableHTML += '<div class="col-md-6">';
             contentTableHTML += '<h5 class="card-title" style="color: #495057">' + data[i].name;
@@ -59,7 +65,8 @@ function sendProductId() {
             contentTableHTML += '</div>  </li>'
         }
         contentTableHTML += '<li class="list-group-item">';
-        if (total === 0){
+
+        if (total === 0) {
             contentTableHTML += '<h2>The cart is empty</h2>'
         } else {
             contentTableHTML += '<div class="row">';
@@ -143,4 +150,57 @@ function inputs() {
     contentHTML += '<input class="btn btn-outline-secondary-1 btn-block" type="submit" value="Pay" onclick="deleteCart(' + getCookie('vk_id') + ')">';
     var contentTableDiv = document.getElementById("inputs");
     contentTableDiv.innerHTML = contentHTML;
+}
+
+function checkCookies() {
+    userId = getCookie('vk_id');
+    if (userId != undefined) flag = true;
+    userName = getCookie('userName');
+    photo = getCookie('userPhoto');
+    if (getCookie('code') != undefined) code = true;
+    var contentHTML = '';
+    if (flag) {
+        contentHTML += '<div class="col-md-2 px-0">'
+        contentHTML += '<img src="' + photo + '" height="40" style="margin-right: 19px; border: 1px solid lightgray" class="rounded shadow"> </div>';
+        contentHTML += '<div class="col-md-6 px-0" style="padding-right:15px !important">'
+        contentHTML += '    <h5 style="margin-right: 10px; margin-top: 5px; color: lightgray">' + userName;
+        contentHTML += '    </h5> </div>';
+        contentHTML += '<div class="col-md-3 px-0">'
+        contentHTML += '    <a href="/logout">';
+        contentHTML += '    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit" style="margin-right: 9px">Log out</button>';
+        contentHTML += ' </a> </div>'
+    } else {
+        contentHTML += '<a href="/auth">';
+        contentHTML += '<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit" style="margin-right: 9px ">Log in';
+        contentHTML += '</button>';
+        contentHTML += '</a>';
+    }
+
+    var contentTable = document.getElementById("login");
+    contentTable.innerHTML = contentHTML;
+    var contentHTMLCode = '';
+    if (!code & flag) {
+        contentHTMLCode += '<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit" style=" margin-right: 9px " data-toggle="modal"\n' +
+            'data-target="#myModal">Enter a code </button>';
+        var contentTableDiv = document.getElementById("codeHTML");
+        contentTableDiv.innerHTML = contentHTMLCode;
+    }
+
+
+    var contentHTMLCart = '';
+
+    if (code & flag) {
+        contentHTMLCart += '<div class="dropdown">';
+        contentHTMLCart += '<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit" style="margin-bottom:2px !important; margin-right: 9px; padding-bottom: 6px; padding-top: 6px " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="sendProductId()">';
+        contentHTMLCart += '<i class="fa fa-shopping-cart" aria-hidden="true"></i>';
+        contentHTMLCart += '</button>';
+        contentHTMLCart += '<div class="dropdown-menu dropdown-menu-right py-0 shadow-lg" style="width: 500px">';
+        contentHTMLCart += '<ul class="list-group" id="table" style="overflow-y:scroll; max-height:80vh;">';
+        contentHTMLCart += '</ul>';
+
+        var contentTableDivCart = document.getElementById("cart");
+        contentTableDivCart.innerHTML = contentHTMLCart;
+    }
+
+
 }

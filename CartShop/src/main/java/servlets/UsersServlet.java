@@ -6,12 +6,8 @@
 
 package servlets;
 
-import com.vk.api.sdk.httpclient.HttpTransportClient;
-import context.ApplicationContext;
+import context.MyApplicationContext;
 import forms.LoginForm;
-import models.Product;
-import repositories.CartRepository;
-import repositories.ProductRepository;
 import services.ProductService;
 import services.VKAuthService;
 
@@ -30,9 +26,9 @@ public class UsersServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String code = request.getParameter("code");
         Integer chatId = Integer.valueOf(request.getParameter("chatId"));
-        VKAuthService vkAuthService = (VKAuthService) ApplicationContext.getContext().getAttribute("vkAuthService");
+        VKAuthService vkAuthService = (VKAuthService) MyApplicationContext.getMyContext().getAttribute("VKAuthService");
         ProductService service
-                = (ProductService) ApplicationContext.getContext().getAttribute("productService");
+                = (ProductService) MyApplicationContext.getMyContext().getAttribute("ProductService");
         List<LoginForm> users = vkAuthService.getUsers(code, chatId);
         service.addAll(users);
         Cookie cookie = new Cookie("code", "kjcbahsc");

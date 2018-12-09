@@ -7,9 +7,8 @@
 package servlets;
 
 import com.google.gson.Gson;
-import context.ApplicationContext;
+import context.MyApplicationContext;
 import models.Product;
-import repositories.CartRepository;
 import services.CartService;
 
 import javax.servlet.ServletException;
@@ -31,9 +30,9 @@ public class UserCartServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Long userId = Long.valueOf(request.getParameter("userId"));
-        CartService cartService = (CartService) ApplicationContext.getContext().getAttribute("cartService");
+        CartService cartService = (CartService) MyApplicationContext.getMyContext().getAttribute("CartService");
 
-
+        System.out.println(userId);
         List<Product> products = cartService.getProductsInCart(userId);
         String result = new Gson().toJson(products);
         response.setContentType("application/json; charset=UTF-8");

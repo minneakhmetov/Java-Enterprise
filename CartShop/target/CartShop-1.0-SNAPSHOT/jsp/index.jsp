@@ -5,7 +5,7 @@
 <%@ page import="repositories.CartRepository" %>
 <%@ page import="services.CartService" %>
 <%@ page import="app.Constants" %>
-<%@ page import="context.ApplicationContext" %><%--
+<%@ page import="context.MyApplicationContext" %><%--
   ~ Developed by Razil Minneakhmetov on 10/25/18 8:00 PM.
   ~ Last modified 10/25/18 8:00 PM.
   ~ Copyright © 2018. All rights reserved.
@@ -146,10 +146,10 @@
         } else {
         %>
         <a href="/auth">
-            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit" style="margin-right: 9px "
-                    >Log in
-            </button>
-        </a>
+        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit" style="margin-right: 9px "
+        >Log in
+        </button>
+    </a>
 
         <%
             }
@@ -262,7 +262,7 @@
 
 
             ProductService service
-                    = (ProductService) ApplicationContext.getContext().getAttribute("productService");
+                    = (ProductService) MyApplicationContext.getMyContext().getAttribute("productService");
             List<Product> list = service.getAll();
             for (int i = 0; i < list.size(); i++) {
                 Long id = list.get(i).getId();

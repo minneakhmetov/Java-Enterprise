@@ -6,7 +6,7 @@
 
 package servlets;
 
-import context.ApplicationContext;
+import context.MyApplicationContext;
 import models.Cart;
 import services.CartService;
 
@@ -26,13 +26,14 @@ public class CartServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        MyApplicationContext context = MyApplicationContext.getMyContext();
         Long productId = Long.valueOf(request.getParameter("productId"));
         Long userId = Long.valueOf(request.getParameter("userId"));
         Cart cart = Cart.builder()
                 .productId(productId)
                 .userId(userId)
                 .build();
-        CartService cartService = (CartService) ApplicationContext.getContext().getAttribute("cartService");
+        CartService cartService = (CartService) MyApplicationContext.getMyContext().getAttribute("CartService");
         cartService.addToCart(cart);
         response.sendError(200);
     }

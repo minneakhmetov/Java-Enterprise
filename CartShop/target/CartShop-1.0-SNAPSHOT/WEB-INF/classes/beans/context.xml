@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Developed by Razil Minneakhmetov on 12/9/18 2:56 PM.
+  ~ Last modified 12/9/18 2:56 PM.
+  ~ Copyright © 2018. All rights reserved.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="username" value="postgres"/>
+        <property name="password" value="r1a2z3i4l5"/>
+        <property name="driverClassName" value="org.postgresql.Driver"/>
+        <property name="url" value="jdbc:postgresql://localhost:5432/stickershop"/>
+    </bean>
+
+    <bean id="cartRepository" class="repositories.CartRepository">
+        <constructor-arg name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="productRepository" class="repositories.ProductRepository">
+        <constructor-arg name="dataSource" ref="dataSource"/>
+    </bean>
+    <bean id="userRepository" class="repositories.UserRepository">
+        <constructor-arg name="dataSource" ref="dataSource"/>
+    </bean>
+    <bean id="cartService" class="services.CartService">
+        <constructor-arg name="repository" ref="cartRepository"></constructor-arg>
+    </bean>
+    <bean id="loginService" class="services.LoginService">
+        <constructor-arg name="repository" ref="userRepository"></constructor-arg>
+    </bean>
+    <bean id="productService" class="services.ProductService">
+        <constructor-arg name="cartRepository" ref="cartRepository"></constructor-arg>
+        <constructor-arg name="productRepository" ref="productRepository"></constructor-arg>
+    </bean>
+    <bean id="vkAuthRepository" class="services.VKAuthService"></bean>
+
+</beans>

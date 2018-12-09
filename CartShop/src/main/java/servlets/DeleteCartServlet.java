@@ -6,14 +6,8 @@
 
 package servlets;
 
-import app.Constants;
-import context.ApplicationContext;
-import models.Cart;
-import models.Product;
-import repositories.CartRepository;
-import repositories.ProductRepository;
+import context.MyApplicationContext;
 import services.CartService;
-import services.ProductService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -34,7 +28,7 @@ public class DeleteCartServlet extends HttpServlet {
 
         Long productId = Long.valueOf(request.getParameter("productId"));
         Long userId = Long.valueOf(request.getParameter("userId"));
-        CartService cartService = (CartService) ApplicationContext.getContext().getAttribute("cartService");
+        CartService cartService = (CartService) MyApplicationContext.getMyContext().getAttribute("CartService");
         cartService.deleteFromCart(productId, userId);
 
 

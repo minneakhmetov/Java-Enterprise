@@ -2,64 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23532cd1-afc9-4002-b1d6-1aba665f7b18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CartShop/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/app/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/context/DBConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/forms/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/models/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/repositories/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/services/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/servlets/CartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/servlets/DeleteCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/servlets/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/servlets/LogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/servlets/MainServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/java/servlets/UsersServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CartShop/src/main/webapp/jsp/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/libraries/Maven__org_postgresql_postgresql_42_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/MatView.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/src/main/java/app/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MatView/src/main/java/app/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlaceFinder/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlaceFinder/.idea/copyright/RazilMinneakhmetov.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlaceFinder/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PlaceFinder/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TPSMeter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inExists/inExists.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inExists/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inExists/src/main/java/app/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inExists/src/main/java/app/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inExists/src/main/java/app/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inExists/src/main/java/app/TimePicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/.idea/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatView/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CartShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/CartShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/StickerShop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/src/main/java/Klass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CartShop/src/main/java/Klasss.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../db1kinsert/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../db1kinsert/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../db1kinsert/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../db1kinsert/src/main/java/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../db1kinsert/target/classes/app/ProgressDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../db1kinsert/target/classes/app/ProgressDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CartShop/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/src/main/java/app/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CartShop/src/main/java/context/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/src/main/java/context/ApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CartShop/target/classes/app/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/target/classes/app/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CartShop/target/classes/context/ApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CartShop/target/classes/context/ApplicationContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/query.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/query.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sql/query.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sql/query.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servak/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -136,14 +84,15 @@
     <session id="77395217">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -182,72 +131,6 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="4" selection-end-line="24" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FileReaderClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="126" column="5" selection-start-line="122" selection-start-column="4" selection-end-line="131" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="122" column="88" selection-start-line="122" selection-start-column="76" selection-end-line="122" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#insertFirstGenome#0;class#Repository#0" />
-                <element signature="method#deleteAll#0;class#Repository#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sql/query.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a029d99-6aee-42d6-800c-2cee265d4f35/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="45" column="84" selection-end-line="45" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -277,7 +160,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1615" />
@@ -289,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -319,7 +203,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -329,7 +212,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541516868189" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MatView" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -381,16 +264,17 @@
       <workItem from="1541058897560" duration="3054000" />
       <workItem from="1541326595536" duration="3617000" />
       <workItem from="1541526446148" duration="594000" />
+      <workItem from="1543337021274" duration="623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29239000" />
+    <option name="totallyTimeSpent" value="29862000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="-5" width="1292" height="704" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17126623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14362416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -428,6 +312,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -444,12 +338,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="122" column="88" selection-start-line="122" selection-start-column="76" selection-end-line="122" selection-end-column="88" />
+        <state relative-caret-position="1425">
+          <caret line="99" column="27" lean-forward="true" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#insertFirstGenome#0;class#Repository#0" />
-            <element signature="method#deleteAll#0;class#Repository#0" />
           </folding>
         </state>
       </provider>
@@ -465,16 +358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
           <caret line="45" column="84" selection-end-line="45" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

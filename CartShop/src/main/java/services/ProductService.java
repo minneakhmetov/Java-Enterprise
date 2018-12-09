@@ -10,36 +10,40 @@ import forms.LoginForm;
 import models.Product;
 import repositories.CartRepository;
 import repositories.ProductRepository;
-import repositories.Repository;
 
 import java.util.List;
 
 public class ProductService {
 
-    private ProductRepository repository;
+    private ProductRepository productRepository;
     private CartRepository cartRepository;
 
-    public ProductService(Repository productRepository, Repository cartRepository) {
-        this.repository = (ProductRepository) productRepository;
-        this.cartRepository = (CartRepository) cartRepository;
+    public ProductService(ProductRepository productRepository, CartRepository cartRepository) {
+        this.productRepository = productRepository;
+        this.cartRepository = cartRepository;
+    }
+
+    public ProductService(CartRepository cartRepository, ProductRepository productRepository) {
+        this.productRepository = productRepository;
+        this.cartRepository = cartRepository;
     }
 
     public List<Product> getAll(){
-        return repository.readAll();
+        return productRepository.readAll();
     }
 
     public void addAll(List<LoginForm> forms){
         cartRepository.delete();
-        repository.delete();
-        repository.batchUpdate(forms);
+        productRepository.delete();
+        productRepository.batchUpdate(forms);
     }
 
     public Product read(Long id){
-        return repository.readOne(id);
+        return productRepository.readOne(id);
     }
 
     public List<Product> find(String string){
-        return repository.find(string);
+        return productRepository.find(string);
     }
 
 }

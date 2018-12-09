@@ -6,7 +6,9 @@
 
 package app;
 
+import context.MyApplicationContext;
 import lombok.SneakyThrows;
+import repositories.CartRepository;
 import repositories.UserRepository;
 
 
@@ -63,8 +65,11 @@ public class Application {
 ////        System.out.println();
 
 
-
-
+//        Avatar avatar = Avatar.builder().id(123l).URL("jicbsef").build();
+//
+//        String string = new Gson().toJson(avatar);
+        //System.out.println(new Timestamp(System.currentTimeMillis()));
+        System.out.println(MyApplicationContext.getMyContext().getAttribute("userRepository") instanceof CartRepository);
 
         //System.out.println(repository.readOne(193108295l));
         //List<Integer> userIds = chat.getUsers();
